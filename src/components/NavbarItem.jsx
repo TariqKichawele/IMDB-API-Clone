@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation'
+import { Suspense } from 'react';
 import React from 'react'
 
 const NavbarItem = ({ title, param }) => {
@@ -9,7 +10,7 @@ const NavbarItem = ({ title, param }) => {
     const genre = searchParams.get('genre');
 
   return (
-    <div>
+    <Suspense>
         <Link 
             className={`hover:text-amber-600 font-semibold ${
                 genre === param 
@@ -20,7 +21,7 @@ const NavbarItem = ({ title, param }) => {
         >
             {title}
         </Link>
-    </div>
+    </Suspense>
   )
 }
 
