@@ -1,3 +1,25 @@
+# IMDB-API
+
+Welcome to IMDB-API, a frontend application that fetches movies from the IMDB API and showcases them in the web app. Built with Next.js and styled with Tailwind CSS, IMDB-API offers features such as filtering and searching to enhance the user experience.
+
+![Screenshot 2024-05-13 at 12 12 55 PM](https://github.com/TariqKichawele/IMDB-API-Clone/assets/105932024/b6ddba3d-838b-4905-9cc9-17b2c7ba617c)
+![Screenshot 2024-05-13 at 12 13 15 PM](https://github.com/TariqKichawele/IMDB-API-Clone/assets/105932024/184c974e-8447-4938-af08-915eedcd9a46)
+
+**TECHNOLOGIES USED**
+
+**Frontend:**
+- Next.js: A React framework for building server-side rendered (SSR) and static web applications.
+- Tailwind CSS: A utility-first CSS framework for styling web interfaces.
+
+**API Integration:**
+- IMDB API: An API that provides access to data from the Internet Movie Database (IMDB).
+  
+**Features**
+- Movie Listing: Fetch and display a list of movies from the IMDB API.
+- Filtering: Filter movies based on criteria such as genre, year, rating, etc.
+- Searching: Search for movies by title, director, actor, or any other relevant keyword.
+- Responsive Design: Enjoy a seamless browsing experience across devices with responsive design.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
